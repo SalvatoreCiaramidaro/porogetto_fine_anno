@@ -185,7 +185,7 @@ Il progetto utilizza un sistema di configurazione avanzato che separa le informa
 4. **Configura il database MySQL(solo in locale):**
    ```bash
    # Importa lo schema
-   mysql -u root -p wikisportcars < wikisportcars.sql
+   mysql -u root -p < wikisportcars.sql
    ```
 
 5. **Aggiorna le credenziali nel file .env:**

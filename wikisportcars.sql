@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS wikisportcars;
+--DROP DATABASE IF EXISTS wikisportcars;
 
-CREATE DATABASE wikisportcars;
+CREATE DATABASE IF NOT EXISTS wikisportcars;
 USE wikisportcars;
 
 DROP TABLE IF EXISTS `users`;
